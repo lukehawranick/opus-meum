@@ -1,0 +1,30 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+    background-color: #21304D; /* Your school's blue */
+}
+
+/* Navbar text color */
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+    color: #ffffff; /* White text for good contrast */
+}
+
+/* Optional: Adjust the height of the logo (if you have one) */
+.navbar-custom img {
+    height: 30px; /* Adjust as needed */
+}
+
+/* Optional: Add space between navbar items */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Adjust spacing between navbar items */
+}
+
+.navbar-custom .navbar-brand img {
+    height: 40px !important;  /* Increase height for logo */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-custom .navbar-nav .nav-item img {
+    height: 40px !important;  /* Apply to right-side image too */
+    width: auto;
+}
