@@ -28,3 +28,13 @@
     height: 40px !important;  /* Apply to right-side image too */
     width: auto;
 }
+
+.card-img-top {
+    max-width: 100%; /* Ensures the image scales to the container width */
+    height: auto;    /* Preserves the aspect ratio */
+    object-fit: contain; /* Ensures the whole image is shown without distortion */
+    max-height: 300px; /* Optional: Adjust to control overall size */
+}
+
+
+
