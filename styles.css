@@ -36,5 +36,10 @@
     max-height: 300px; /* Optional: Adjust to control overall size */
 }
 
-
+.card-body .card-text {
+    margin-bottom: 10px; /* Add spacing below the text */
+}
+.card-body button {
+    margin-top: 15px; /* Add spacing above the button */
+}
 
