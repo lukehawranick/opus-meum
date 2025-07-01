@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="icon" href="figures\moreinterests\uofsc.png" type="image/x-icon">
+    <title>Research Projects – Luke Hawranick</title>
+        <link rel="icon" href="figures\moreinterests\uofsc.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -12,11 +11,18 @@
     <!-- Link to your custom CSS (if any) -->
     <link rel="stylesheet" href="styles.css">
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+    svg: { fontCache: 'global' }
+  };
+</script>
+
 </head>
+
 <body>
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container-fluid">
             <!-- Toggler for mobile screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -51,89 +57,50 @@
             </div>
         </div>
     </nav>
-<!--
-    <div class="container mt-5">
-        <h1 class="mb-4 text-center">Select Projects</h1>
 
-        
-        <div class="row g-4 mb-4">
-            <div class="col-md-12">
-                <div class="card">
-                    <img class="card-img-top" src="figures/lowerbound2,3.png" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Monochromatic Matchings in Ordered Complete Graphs</h5>
-                        <p class="card-text">Consider an ordered, 2-colored complete graph. Edges are either "nested", "separated", or "crossing". We study extremal questions in this domain. The figure demonstrates that \(R_{\text{nest}}(M_2,M_3) > 5\). In this project, we strengthen a bound on \(R_{\text{nest}}(M_k,M_k)\) and look at the \(t\)-coloring variant of the problem.</p>
-                        <b class="card-text">Finalized poster and manuscript expected: 5/2025</b><br>
-                        <button class="btn btn-primary" disabled>In progress</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <div class="row g-4 mb-4">
-            <div class="col-md-12">
-                <div class="card">
-                    <img src="figures/mis.png" class="card-img-top" alt="Project 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Enumerating Maximal Independent Sets in Grid-like Graphs</h5>
-                        <p class="card-text">
-                            Introduced a simple framework of states to count maximal independent sets on a class of grid-like graphs with the number of walks on a state digraph, studying asymptotics. We strengthen bounds on the Maximal Hard Square Entropy Constant - the exponential rate of growth of the spectral radii of state digraphs of a subclass of our graphs. We also explore non-isomorphic enumeration.
-                        </p>
-                        <b class="card-text">Finalized manuscript expected: 12/2024</b><br>
-                        <div class="d-flex align-items-center">
-                            <button class="btn btn-primary" disabled>In progress</button>
-                            <a href="papers/personal/Poster.pdf" target="_blank" rel="noopener noreferrer" class="ms-3 text-decoration-none">View our poster.</a>
-                            <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/45966" target="_blank" rel="noopener noreferrer" class="ms-3 text-decoration-none">We were at 2025 JMM.</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row g-4 mb-4">
-            <div class="col-md-12">
-                <div class="card" style="background-color: #e8f5e9; border-color: #4caf50;">
-                    <img src="figures/tainew.png" class="card-img-top" alt="Project 2">
-                    <div class="card-body">
-                        <h5 class="card-title text-success">Tree Augmentation Implementation</h5>
-                        <p class="card-text">
-                            Given a tree \(T=(V,E)\) and a set of candidate links \(L\), find a minimum set \(L' \subseteq L\) such that \((V,E\cup L')\) is 2-edge connected. When \(L \cup E\) is not complete, the problem is \(\textbf{NP-complete}\). We contrast the performance of four published approximation algorithms against our naive randomized algorithm.
-                        </p>
-                        <a href="papers/personal/TreeAugmentation.pdf" 
-                           class="btn btn-success" 
-                           target="_blank" 
-                           rel="noopener noreferrer">
-                           <i class="bi bi-check-circle"></i> Submitted
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
-<p>
-        <h3>Extremal Combinatorics</h3>
-    <ul>
-        <li>(with <i>Zachary Hammersla</i> and <i>Kevin Milans</i>) <b>Ramsey Numbers of Matchings in Ordered Graphs</b> (in preparation)</li>
-    </ul>
+    
+<div class="container-fluid px-3 mt-4">
 
-    <p>
-        <hr>
+  <h3>Projects</h3>
+
+  <p>I work in extremal and enumerative combinatorics, with applications to theoretical computer science. My projects include:</p>
+
+  <ul>
+    <li><a href="#ext">Extremal Combinatorics</a></li>
+    <li><a href="#enum">Enumerative Combinatorics</a></li>
+  </ul>
+  <hr>
+
+  <h4><a name="ext">Extremal Combinatorics</a></h4>
+  <ul>
+    <li>(with <i>Zachary Hammersla</i> and <i>Kevin Milans</i>) 
+      <b>Ramsey Numbers of Matchings in Ordered Graphs</b> (in preparation)
+    </li>
+  </ul>
+
+  <hr>
+
+  <h4><a name="enum">Enumerative Combinatorics</a></h4>
+  <ul>
+    <li>(with <i>Levi Axelrod</i>, <i>Nathan Bickel</i>, <i>Anastasia Halfpap</i>, <i>Alex Parker</i>, and <i>Cole Swain</i>) 
+      <b>Statistics of Maximal Independent Sets in Grid-Like Graphs</b>, preprint (2025), 24 pages.<p></p>
         <p>
-<h3>Enumerative Combinatorics</h3>
-    <ul>
-        <li>(with <i>Levi Axelrod</i>, <i>Nathan Bickel</i>, <i>Anastasia Halfpap</i>, <i>Alex Parker</i>, and <i>Cole Swain</i>) <b>Statistics of Maximal Independent Sets in Grid-Like Graphs</b> (in preparation)</li>
-        <p><p>
-            See our <a href="papers/personal/Poster.pdf" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
-                poster
-              </a> presented at 
-            <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/45966" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
-              2025 JMM
-            </a> 
-            in Seattle, WA.
-          <p><p>See also <a class="text-decoration-none" href="papers/personal/MISSlides.pdf" target="_blank" rel="noopener noreferrer">slides</a>.</p>
-          </ul>
+        An independent set \( I \) in a graph \( G \) is <i>maximal</i> if \( I \) is not properly contained in any other independent set of \( G \). One class of graphs where enumeration of MIS’s is well-understood is the rectangular grid graphs \( G_{m \times n} \). We study properties of MIS’s in "grid-like" graphs — graphs locally isomorphic to square grids but globally resembling surfaces like tori or Möbius strips.
+        </p>
+        <p>
+        We examine parity, average size, and number of non-isomorphic MIS's in various families of grid-like graphs.
+        </p>
+      <p>
+        See our preprint on <a href="https://arxiv.org/abs/2506.22317">Arxiv</a>.<br>
+        See our <a href="papers/personal/Poster.pdf" target="_blank">poster</a> presented at 
+        <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/45966" target="_blank">JMM 2025</a> in Seattle, WA. <br>
+        Also see <a href="papers/personal/MISSlides.pdf" target="_blank">slides</a>.
+      </p>
+    </li>
+  </ul>
+  <hr>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
